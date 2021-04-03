@@ -21,8 +21,8 @@ const queue = new PQueue({
             urls.push(charRows[i].href);
         }
 
-        return urls
-    })
+        return urls;
+    });
     
     const characters = [];
 

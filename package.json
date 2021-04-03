@@ -4,7 +4,7 @@
   "description": "",
   "main": "potusScraper.js",
   "scripts": {
-    "start": "node puppeteer/cosScraper3.mjs",
+    "start": "node puppeteer/pokeScraper2.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
