@@ -14,7 +14,11 @@ const puppeteer = require('puppeteer');
 
         for (let i = 0; i < memeList.length; i++){
             const meme = {
-                title: memeList[i].querySelector('.blog-post-title').innerText
+                title: memeList[i].querySelector('.blog-post-title').innerText,
+                picture: memeList[i].querySelector('.img-post').src,
+                yesVotes: memeList[i].querySelector('.vote-awesome').innerText,
+                confusedVotes: memeList[i].querySelector('.vote-wtw').innerText,
+                noVotes: memeList[i].querySelector('.vote-boring').innerText
             }
 
             scrapedMemes.push(meme);
